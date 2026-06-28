@@ -7,7 +7,7 @@ date: 2024-12-02
 
 # UNM Historic Preservation & Regionalism Digital Lab
 
-This is your homepage — the first thing visitors see. Write two or three sentences that introduce who you are and what you do. Think of it as a brief professional statement: your field, your focus, and what makes your work distinctive. Keep it short; the cards below link to your other pages where you can go into depth.
+Cultural Scans for Interactive 3D Experiences (SITEs) is a digital historic preservation project that took place in New Mexico between 2023 and 2025. Cultural SITEs explored how various forms of digital imaging tools could be useful in the preservation of historic sites and monuments across New Mexico.
 
 ---
 
