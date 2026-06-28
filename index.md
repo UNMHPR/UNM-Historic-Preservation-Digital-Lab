@@ -4,23 +4,28 @@ layout: nav-profile
 date: 2024-12-02
 ---
 
-
 # UNM Historic Preservation & Regionalism Digital Lab
 
 Cultural Scans for Interactive 3D Experiences (SITEs) is a digital historic preservation project that took place in New Mexico between 2023 and 2025. Cultural SITEs explored how various forms of digital imaging tools could be useful in the preservation of historic sites and monuments across New Mexico.
 
----
+<div style="background:#1d1d1d; color:white; padding:60px; border-radius:12px;">
 
-The cards below are generated automatically from your other pages. Each page that has `homepage: true` in its front matter will appear here as a card. The card's title, summary text, and thumbnail image all come from that page's front matter:
+<h1>UNM Historic Preservation & Regionalism Program <span style="font-size:28px;">(Digital Lab)</span></h1>
 
-```yaml
-homepage: TRUE
-summary: A sentence or two describing this page — appears on the card.
-thumbnail: assets/images/your-image.jpg
-position: 1   # controls the order cards appear (lower numbers first)
-```
+<p>
+Cultural Scans for Interactive 3D Experiences (SITEs) is a digital historic preservation project that took place in New Mexico between 2023 and 2025.
+</p>
 
-To add a new card, create a new page and add those fields. To remove a card, delete `homepage: TRUE` from that page's front matter. To reorder cards, adjust the `position` values.
+<h2>Symposium on</h2>
 
-{% assign essays = site.pages | where: "homepage", true %}
-{% include nav/card-stack.html cards = essays %}
+<h1 style="font-size:64px;">Cultural Sites</h1>
+
+<p>
+Fort Selden<br>
+Lincoln<br>
+Mimbres<br>
+Salmon Ruins<br>
+Sevilleta Pueblo
+</p>
+
+</div>
