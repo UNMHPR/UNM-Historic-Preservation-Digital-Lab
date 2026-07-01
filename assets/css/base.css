@@ -796,6 +796,7 @@ HERO SECTION (Homepage)
 }
 
 .homepage-right img{
-    width:100%;
-    max-width:780px;
+    width:150%;
+    max-width:1200px;
+    height:auto;
 }
