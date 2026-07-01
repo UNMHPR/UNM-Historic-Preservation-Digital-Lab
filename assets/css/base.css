@@ -148,6 +148,10 @@ html, body {
   grid-column: content;
 }
 
+.homepage-hero{
+  grid-column: full;
+}
+
 
 /*****************************************************
 SECTION BACKGROUNDS - Subtle visual rhythm
