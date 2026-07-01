@@ -1,6 +1,6 @@
 ---
 title: University of New Mexico Historic Preservation & Regionalism Digital Lab
-layout: nav-profile
+layout: default
 date: 2024-12-02
 ---
 
