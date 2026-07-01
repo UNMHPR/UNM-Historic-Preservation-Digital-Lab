@@ -1,15 +1,35 @@
 # ----------------------------------------------------------------------------
-# REQUIRED: Update these fields before publishing your site
+# REQUIRED
 # ----------------------------------------------------------------------------
-title: Your Name              # appears in browser tab and header
-author: Your Name             # your name (used in meta tags)
-description: A short description of your portfolio site.
-url: "https://xanthan-web.github.io"   # your full site URL (no trailing slash)
-baseurl: "/portfolio-template"        # leave empty for username.github.io repos
-                              # use /repo-name if publishing as a project page
+
+title: University of New Mexico Historic Preservation & Regionalism Digital Lab
+author: University of New Mexico Historic Preservation & Regionalism Program
+description: Digital repository for the University of New Mexico Historic Preservation & Regionalism Program, showcasing heritage documentation, 3D models, digital reconstructions, and research projects.
+
+url: "https://unmhpr.github.io"
+baseurl: "/UNM-Historic-Preservation-Digital-Lab"
 
 # ----------------------------------------------------------------------------
 # OPTIONAL
 # ----------------------------------------------------------------------------
-analytics_id:   # paste your Google Analytics measurement ID (G-XXXXXXXXXX)
-search: true    # set to false to disable site search
+
+analytics_id:
+search: true
+
+# ----------------------------------------------------------------------------
+# Jekyll
+# ----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
