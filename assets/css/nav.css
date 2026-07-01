@@ -101,7 +101,7 @@ TOPNAV
   /* Typography */
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1;
   max-width: 700px;
   white-space: nowrap;
   color: var(--text-on-dark);
