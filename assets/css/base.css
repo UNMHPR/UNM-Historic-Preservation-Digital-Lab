@@ -745,8 +745,8 @@ HERO SECTION (Homepage)
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:90px 100px;
-    gap:80px;
+    padding:40px 100px;
+    gap:120px;
     font-family:Roboto,sans-serif;
 }
 
