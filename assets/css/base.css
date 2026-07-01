@@ -792,31 +792,37 @@ HERO SECTION (Homepage)
 .homepage-right{
     flex: 1.8;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.homepage-right img{
+.homepage-model{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homepage-model img{
     width: 180%;
     max-width: none;
     height: auto;
 }
 
-
 .hero-logos{
-    display:flex;
-    align-items:center;
-    gap:70px;
-    margin-top:60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+    margin-top: 40px;
 }
 
 .hero-logos img:first-child{
-    height:65px;
-    width:auto;
+    height: 65px;
+    width: auto;
 }
 
 .hero-logos img:last-child{
-    height:55px;
-    width:auto;
-}
+    height: 55px;
+    width: auto;
