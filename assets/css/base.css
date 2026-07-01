@@ -730,7 +730,10 @@ HERO SECTION (Homepage)
     max-width: 100% !important;
     justify-self: stretch !important;
     margin-bottom: var(--spacing-md);
-  }
+}
+
+} /* closes the mobile media query */
+
 .homepage-hero{
     background:#1C1C1C;
     color:#E8E8E8;
