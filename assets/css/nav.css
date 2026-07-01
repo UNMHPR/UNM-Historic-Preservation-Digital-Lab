@@ -203,9 +203,11 @@ TOPNAV
 .top-nav-link {
   /* Box Model */
   display: inline-block;
-  padding: 0.2rem 0.6rem;
+  padding: 0.5rem 0;
 
   /* Typography */
+  font-size: 1rem;
+  font-weight: 500;
   color: var(--text-on-dark);
   text-decoration: none;
 
