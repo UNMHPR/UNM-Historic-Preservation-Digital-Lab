@@ -75,11 +75,25 @@ TOPNAV
   padding:0 100px;
 }
 
-@media (min-width: 992px) {
-  .top-nav-inner {
-    justify-content: center;
-    gap: var(--spacing-lg);
-    flex-wrap: nowrap;
+@media (min-width:992px){
+
+.top-nav-inner{
+    justify-content:space-between;
+    gap:0;
+    flex-wrap:nowrap;
+}
+
+.top-nav-collapse{
+    display:flex;
+    margin-left:auto;
+}
+
+.top-nav-list{
+    display:flex;
+    gap:40px;
+}
+
+}
   }
 }
 
