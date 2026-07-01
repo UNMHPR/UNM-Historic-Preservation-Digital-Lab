@@ -99,11 +99,17 @@ TOPNAV
 
 .top-nav-brand {
   /* Typography */
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   font-weight: 700;
   line-height: 1;
-  max-width: 700px;
+  letter-spacing: -0.02em;
   white-space: nowrap;
+
+  /* Layout */
+  flex-shrink: 0;
+  margin-right: 60px;
+
+  /* Colors */
   color: var(--text-on-dark);
   text-decoration: none;
 
