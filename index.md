@@ -26,19 +26,21 @@ date: 2024-12-02
             <li>Sevilleta Pueblo</li>
         </ul>
 
-        <div class="hero-logos">
-    <img src="{{ site.baseurl }}/assets/images/homepage/university-of-new-mexico-logo-png_seeklogo-479477.png"
-         alt="University of New Mexico">
-
-    <img src="{{ site.baseurl }}/assets/images/homepage/Northrop_Grumman_logo_blue-on-clear_2020.svg.png"
-         alt="Northrop Grumman">
-</div>
-
     </div>
 
     <div class="homepage-right">
 
-        <img src="{{ site.baseurl }}/assets/images/homepage/Edit.png" alt="3D Model">
+        <div class="homepage-model">
+            <img src="{{ site.baseurl }}/assets/images/homepage/Edit.png" alt="3D Model">
+        </div>
+
+        <div class="hero-logos">
+            <img src="{{ site.baseurl }}/assets/images/homepage/university-of-new-mexico-logo-png_seeklogo-479477.png"
+                 alt="University of New Mexico">
+
+            <img src="{{ site.baseurl }}/assets/images/homepage/Northrop_Grumman_logo_blue-on-clear_2020.svg.png"
+                 alt="Northrop Grumman">
+        </div>
 
     </div>
 
