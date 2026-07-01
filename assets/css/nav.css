@@ -18,7 +18,7 @@ TOPNAV
   color: var(--text-on-dark);
 
   /* Visual */
-  background-color: color-mix(in srgb, var(--bg-nav) 92%, transparent);
+  background-color: #111111;
   border-bottom: none;
 
   /* Position — sticky so nav locks to top when scrolled past */
