@@ -3,61 +3,34 @@ title: University of New Mexico Historic Preservation & Regionalism Digital Lab
 layout: default
 date: 2024-12-02
 ---
+<div class="homepage-hero">
 
-<div style="background:#1C1C1C; color:#D9D9D9; padding:70px; font-family:Roboto, Arial, sans-serif; min-height:100vh;">
+    <div class="homepage-left">
 
-  <div style="display:flex; justify-content:space-between; align-items:center; gap:60px;">
+        <p class="hero-intro">
+            Cultural Scans for Interactive 3D Experiences (SITEs) is a digital historic preservation project that explores how digital technologies support documentation, visualization, and preservation of historic places.
+        </p>
 
-    <div style="width:45%;">
+        <h3>Symposium on</h3>
 
-      <h1 style="font-size:44px; color:#E8E8E8; font-weight:300; margin-bottom:20px;">
-        UNM Historic Preservation & Regionalism Program
-        <span style="font-size:26px;">(Digital Lab)</span>
-      </h1>
+        <h1>Cultural Sites</h1>
 
-      <p style="font-size:18px; line-height:1.8; color:#B3B3B3;">
-        Cultural Scans for Interactive 3D Experiences (SITEs) is a digital
-        historic preservation project that took place in New Mexico between
-        2023 and 2025. Cultural SITEs explores how digital imaging technologies
-        support the documentation, visualization, and preservation of historic
-        sites throughout New Mexico.
-      </p>
+        <div class="hero-line"></div>
 
-      <br><br>
-
-      <h2 style="font-size:28px; color:#E8E8E8; font-weight:300; margin-bottom:0;">
-        Symposium on
-      </h2>
-
-      <h1 style="font-size:72px; color:#FFFFFF; font-weight:300; margin-top:10px; margin-bottom:20px;">
-        Cultural Sites
-      </h1>
-
-      <hr style="width:180px; border:1px solid #777; margin-left:0; margin-bottom:25px;">
-
-      <p style="font-size:20px; line-height:2; color:#B3B3B3;">
-        Fort Selden<br>
-        Lincoln<br>
-        Mimbres<br>
-        Salmon Ruins<br>
-        Sevilleta Pueblo
-      </p>
+        <ul class="site-list">
+            <li>Fort Selden</li>
+            <li>Lincoln</li>
+            <li>Mimbres</li>
+            <li>Salmon Ruins</li>
+            <li>Sevilleta Pueblo</li>
+        </ul>
 
     </div>
 
-    <div style="width:50%; text-align:center;">
+    <div class="homepage-right">
 
-      <img
-        src="assets/images/homepage/Edit.png"
-        alt="Historic Preservation Model"
-        style="max-width:100%; height:auto;">
+        <img src="{{site.baseurl}}/assets/images/homepage/Edit.png" alt="3D Model">
 
     </div>
-
-  </div>
-
-</div>
-
-</div>
 
 </div>
