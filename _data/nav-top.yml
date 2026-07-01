@@ -1,12 +1,11 @@
-- title: "Research"
-  url: /research
-- title: "Teaching"
-  url: /teaching
-- title: "Creative"
-  url: /creative
-- title: "CV"
-  url: /cv
-- title: "Instructions"
-  url: /instructions
-- title: "Docs"
-  url: /docs
+- title: "Digital Lab"
+  url: /
+
+- title: "Projects"
+  url: /projects
+
+- title: "About"
+  url: /about
+
+- title: "Team"
+  url: /team
