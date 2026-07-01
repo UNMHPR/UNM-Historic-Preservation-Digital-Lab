@@ -790,13 +790,15 @@ HERO SECTION (Homepage)
 }
 
 .homepage-right{
-    flex:1;
-    display:flex;
-    justify-content:center;
+    flex: 1.8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
 }
 
 .homepage-right img{
-    width:150%;
-    max-width:1200px;
-    height:auto;
+    width: 180%;
+    max-width: none;
+    height: auto;
 }
