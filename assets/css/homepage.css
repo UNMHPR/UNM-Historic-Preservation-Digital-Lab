@@ -1,11 +1,65 @@
-/* ===========================
-   Homepage
-=========================== */
+.homepage-hero{
+    background:#1C1C1C;
+    color:#E8E8E8;
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:90px 100px;
+    gap:80px;
+    font-family:'Roboto',sans-serif;
+}
 
-.homepage-hero {
-  background: #1C1C1C;
-  color: #D9D9D9;
-  min-height: 100vh;
-  padding: 80px;
-  font-family: Roboto, Arial, sans-serif;
+.homepage-left{
+    flex:1;
+    max-width:600px;
+}
+
+.hero-intro{
+    color:#B3B3B3;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:50px;
+}
+
+.homepage-left h3{
+    font-size:30px;
+    font-weight:300;
+    margin:0;
+}
+
+.homepage-left h1{
+    font-size:78px;
+    font-weight:300;
+    margin:10px 0 20px;
+}
+
+.hero-line{
+    width:180px;
+    height:2px;
+    background:#777;
+    margin-bottom:30px;
+}
+
+.site-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.site-list li{
+    font-size:22px;
+    color:#B3B3B3;
+    margin:12px 0;
+}
+
+.homepage-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.homepage-right img{
+    width:100%;
+    max-width:650px;
 }
