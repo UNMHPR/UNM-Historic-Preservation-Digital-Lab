@@ -27,12 +27,12 @@ date: 2024-12-02
         </ul>
 
         <div class="hero-logos">
-            <img src="{{ site.baseurl }}/assets/images/university-of-new-mexico-logo-png_seeklogo-479477.png"
-                 alt="University of New Mexico">
+    <img src="{{ site.baseurl }}/assets/images/homepage/university-of-new-mexico-logo-png_seeklogo-479477.png"
+         alt="University of New Mexico">
 
-            <img src="{{ site.baseurl }}/assets/images/Northrop_Grumman_logo_blue-on-clear_2020.svg.png"
-                 alt="Northrop Grumman">
-        </div>
+    <img src="{{ site.baseurl }}/assets/images/homepage/Northrop_Grumman_logo_blue-on-clear_2020.svg.png"
+         alt="Northrop Grumman">
+</div>
 
     </div>
 
