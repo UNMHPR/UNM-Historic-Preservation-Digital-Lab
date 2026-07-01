@@ -66,14 +66,13 @@ TOPNAV
 
 /* Inner wrapper centers brand + nav as a group */
 .top-nav-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 var(--spacing-sm);
-  flex-wrap: wrap;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  max-width:1600px;
+  margin:0 auto;
+  padding:0 100px;
 }
 
 @media (min-width: 992px) {
